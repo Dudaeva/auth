@@ -8,9 +8,9 @@ function Login() {
     <div className="container">
       <div className="left_block">
         <img src={background} alt="background" className="background"/>
-        <img src={logo} alt="logo" class="logo" />
+        <img src={logo} alt="logo" className="logo" />
       </div>
-      <div class="main">
+      <div className="main">
         <h1>Вход в конструктор финансового плана <span>InvestmentBox</span></h1>
         <p className="desc">
           Пожалуйста, авторизуйте свой персональный <br /> аккаунт для доступа к
@@ -20,7 +20,7 @@ function Login() {
           <input type="text" placeholder="Введите e-mail" />
           <div style={{ position: "relative" }}>
             <input type="text" placeholder="Введите пароль" />
-            <img src={visibility} alt="" class="pass" />
+            <img src={visibility} alt="" className="pass" />
           </div>
 
           <div className="btn_group">

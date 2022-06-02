@@ -6,10 +6,10 @@ function Restore(props) {
   return (
     <div className="container">
       <div className="left_block">
-        <img src={background} alt="" class="background" className="background"/>
-        <img src={logo} alt="logo" class="logo" />
+        <img src={background} alt="" className="background"/>
+        <img src={logo} alt="logo" className="logo" />
       </div>
-      <div class="main">
+      <div className="main">
         <h1>Восстановление пароля</h1>
         <p className="desc">
           Оставьте свой e-mail, чтобы получить новый <br />пароль для доступа к платформе.
